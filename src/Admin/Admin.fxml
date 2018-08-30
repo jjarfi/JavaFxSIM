@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="573.0" prefWidth="1068.0" style="-fx-background-color: #142430;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin.AdminController">
+   <children>
+      <AnchorPane prefHeight="568.0" prefWidth="1074.0">
+         <children>
+            <VBox layoutX="-1.0" layoutY="28.0" prefHeight="550.0" prefWidth="228.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true" />
+                  <Separator opacity="0.11" prefHeight="0.0" prefWidth="301.0" />
+                  <Pane fx:id="pan1" prefHeight="55.0" prefWidth="221.0">
+                     <children>
+                        <JFXButton fx:id="btn1" alignment="BASELINE_LEFT" cacheShape="false" centerShape="false" focusTraversable="false" graphicTextGap="0.0" layoutX="7.0" mnemonicParsing="false" onAction="#pindahwilayah" onMouseEntered="#mosenter1" onMouseExited="#mosexit1" pickOnBounds="false" prefHeight="55.0" prefWidth="221.0" scaleShape="false" text="  Wilayah Pembangunan" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="11.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+                  <Separator prefWidth="200.0" visible="false" />
+                  <Pane fx:id="pan2" layoutX="10.0" layoutY="166.0" prefHeight="55.0" prefWidth="221.0">
+                     <children>
+                        <JFXButton fx:id="btn2" alignment="BASELINE_LEFT" layoutX="7.0" onAction="#pindahketegori" onMouseEntered="#mosenter2" onMouseExited="#mosexit2" prefHeight="55.0" prefWidth="221.0" text="  Kategori Wisata" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="11.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+                  <Separator prefWidth="200.0" visible="false" />
+                  <Pane fx:id="pan3" layoutX="10.0" layoutY="224.0" prefHeight="55.0" prefWidth="221.0">
+                     <children>
+                        <JFXButton fx:id="btn3" alignment="BASELINE_LEFT" layoutX="7.0" onMouseEntered="#mosenter3" onMouseExited="#mosexit3" prefHeight="55.0" prefWidth="221.0" text="  Data Fasilitas" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="11.0" />
+                           </font></JFXButton>
+                     </children>
+                  </Pane>
+                  <Separator prefWidth="200.0" visible="false" />
+                  <Pane fx:id="pan4" layoutX="10.0" layoutY="282.0" prefHeight="55.0" prefWidth="221.0">
+                     <children>
+                        <JFXButton fx:id="btn4" alignment="BASELINE_LEFT" layoutX="7.0" onMouseEntered="#mosenter4" onMouseExited="#mosexit4" prefHeight="55.0" prefWidth="221.0" text="  Obyek Wisata" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="11.0" />
+                           </font></JFXButton>
+                     </children>
+                  </Pane>
+                  <Separator prefWidth="200.0" visible="false" />
+                  <Pane fx:id="pan5" layoutX="10.0" layoutY="340.0" prefHeight="55.0" prefWidth="221.0">
+                     <children>
+                        <JFXButton fx:id="btn5" alignment="BASELINE_LEFT" layoutX="7.0" onMouseEntered="#mosenter5" onMouseExited="#mosexit5" prefHeight="55.0" prefWidth="221.0" text="  Laporan WIsata" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="11.0" />
+                           </font></JFXButton>
+                     </children>
+                  </Pane>
+                  <Separator prefWidth="200.0" visible="false" />
+                  <Pane fx:id="pan6" layoutX="10.0" layoutY="398.0" prefHeight="55.0" prefWidth="221.0">
+                     <children>
+                        <JFXButton fx:id="btn6" alignment="BASELINE_LEFT" layoutX="7.0" onMouseEntered="#mosenter6" onMouseExited="#mosexit6" prefHeight="55.0" prefWidth="221.0" text="  Database" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="11.0" />
+                           </font></JFXButton>
+                     </children>
+                  </Pane>
+                  <Separator opacity="0.11" prefHeight="7.0" prefWidth="184.0" />
+                  <HBox prefHeight="50.0" prefWidth="221.0">
+                     <children>
+                        <JFXButton fx:id="btn7" contentDisplay="CENTER" onMouseEntered="#mosenter7" onMouseExited="#mosexit7" prefHeight="55.0" prefWidth="74.0" />
+                        <Separator orientation="VERTICAL" prefHeight="200.0" visible="false" />
+                        <JFXButton fx:id="btn8" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseEntered="#mosenter8" onMouseExited="#mosexit8" prefHeight="55.0" prefWidth="75.0" />
+                        <Separator orientation="VERTICAL" prefHeight="200.0" visible="false" />
+                        <JFXButton fx:id="btn9" contentDisplay="CENTER" layoutX="73.0" layoutY="10.0" onMouseEntered="#mosenter9" onMouseExited="#mosexit9" prefHeight="55.0" prefWidth="72.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <JFXToolbar prefHeight="22.0" prefWidth="1068.0" style="-fx-background-color: #616161;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <left>
+                  <MenuBar prefHeight="29.0" prefWidth="1075.0" BorderPane.alignment="CENTER">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="File">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Close" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Edit">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Delete" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Help">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="About" />
+                        </items>
+                      </Menu>
+                    </menus>
+                  </MenuBar>
+               </left>
+            </JFXToolbar>
+            <Separator layoutX="227.0" layoutY="29.0" opacity="0.11" orientation="VERTICAL" prefHeight="550.0" prefWidth="6.0" />
+            <AnchorPane fx:id="jendela" layoutX="230.0" layoutY="29.0" prefHeight="550.0" prefWidth="845.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="jendela" prefHeight="550.0" prefWidth="845.0" style="-fx-background-color: #142430;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wilayah.WilayahController">
+   <children>
+      <AnchorPane prefHeight="48.0" prefWidth="845.0" style="-fx-background-color: black;">
+         <children>
+            <JFXToolbar layoutY="3.0" prefHeight="48.0" prefWidth="845.0" style="-fx-background-color: black;">
+               <center>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Pane fx:id="pan1" prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <JFXButton fx:id="btn1" onAction="#pindahkampung" onMouseEntered="#mosenter1" onMouseExited="#mosexit1" prefHeight="39.0" prefWidth="201.0" text="Kampung" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold Italic" size="12.0" />
+                                 </font>
+                              </JFXButton>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pan2" layoutX="333.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <JFXButton fx:id="btn2" onAction="#pindahdistrik" onMouseEntered="#mosenter2" onMouseExited="#mosexit2" prefHeight="39.0" prefWidth="201.0" text="Distrik" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold Italic" size="12.0" />
+                                 </font>
+                              </JFXButton>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pan3" layoutX="433.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <JFXButton fx:id="btn3" onAction="#pindahwilayah" onMouseEntered="#mosenter3" onMouseExited="#mosexit3" prefHeight="39.0" prefWidth="201.0" text="Wilayah Pembangunan" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold Italic" size="11.0" />
+                                 </font>
+                              </JFXButton>
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+               </center>
+            </JFXToolbar>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="jendela1" layoutY="51.0" prefHeight="499.0" prefWidth="845.0" />
+   </children>
+</AnchorPane>
