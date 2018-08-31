@@ -2,7 +2,6 @@
 
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXCheckBox?>
-<?import com.jfoenix.controls.JFXColorPicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
@@ -11,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" fx:id="root" prefHeight="341.0" prefWidth="538.0" style="-fx-background-color: #142430;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.LoginController">
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="341.0" prefWidth="538.0" style="-fx-background-color: #142430;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.LoginController">
    <children>
       <AnchorPane layoutY="37.0" prefHeight="310.0" prefWidth="538.0">
          <children>
@@ -44,7 +43,6 @@
                </font>
             </JFXButton>
             <JFXCheckBox layoutX="157.0" layoutY="189.0" text="Lihat Password" textFill="WHITE" unCheckedColor="WHITE" />
-            <JFXColorPicker layoutX="410.0" layoutY="144.0" />
          </children>
       </AnchorPane>
    </children>
